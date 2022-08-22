@@ -1,0 +1,145 @@
+/* CSS Document  */
+
+*{
+	margin: 0;
+paddin: 0;
+}
+
+h1 {
+	color: red;
+}
+
+body {
+	background-color: #f4f4f4;
+	color: #55555;
+	font-family:arial,helvetica, sans-serif;
+	font-weight: bold;
+	line-height: 1.6em;
+	margin: 0;
+	font-size: 16px;
+}
+
+
+.box-1 {
+	background-color: #333;
+	color: #fff; 
+	
+/*
+	border-right:5px red solid;
+	border-left:5px orange solid;
+	border-top:5px yellow solid;
+	border-bottom:5px purple solid;
+*/
+	border:5px;
+	border-width: 3px;
+	border-bottom-width:
+	10px;
+	border-top-style:dotted;
+	border: 5px red solid;
+	padding: 20px;
+	margin: 20px 0;
+	margin: 20px;
+}
+
+a{
+	text-decoration:none;
+	color: #000;
+}
+a:hover{
+	color:red;
+}
+a:active{
+	color:green;
+}
+a:visited{
+	color: yellow;
+}
+.container{
+	width:80%;
+margin: auto;
+}
+
+.box-1 h1 
+{font-family: Tahoma;
+	font-weight: 800;
+	font-style: italic;
+	text-decoration: underline;
+	text-transform:uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+}
+.box-2{
+border: 3px dotted #ccc;
+	padding: 20px;
+	margin: 20px 0;
+	
+}
+.categories {
+	border: 1px #ccc solid;
+	padding: 10px;
+	border-raidus: 15px;
+	
+}
+
+
+.catefories h2 {
+	text-allign: center
+}
+
+
+.categories ul {
+	padding:0;
+	padding-left: 20px;
+	list-style: square;
+	list-style: none;
+	}
+
+
+categories li {
+	padding-bottom: 6px;
+	border-bottom: dotted 1px #333;
+	list-style-image: url('../images1/check.png');
+}
+
+.my-form {
+	padding: 20px;
+}
+
+.my-form .form-group {
+	padding-bottom: 15px;
+	
+}
+
+.my-form label {
+	display: block;
+}
+.my-form input [type="text"] , my-form textarea {
+	padding: 8px;
+	width: 100%;
+}
+
+.button {
+	background-color: #ee82ee;
+	color: #ee82ee;
+	padding: 10px 15px;
+	border: none;
+		
+	}
+
+.button:hover {
+	background: red;
+	color: #fff;
+}
+.button{
+	padding: 8px;
+	
+}
+	
+	
+
+
+
+/* a:visited {
+color: black;
+}*/
+
